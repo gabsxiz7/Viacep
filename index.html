@@ -8,8 +8,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <fieldset>
-    <form>
+
+    <form id="formulario">
+        <legend style="color: rgb(190, 190, 190);"><strong>VIA CEP</strong></legend>
     <label>Cep:
         <input name="cep" type="text" id="cep" value="" szie="10" maxlength="9"
         onblur="PesquisaCEP(this.value)">
@@ -29,7 +30,7 @@
     <label>IBGE:
         <input name="ibge" type="text" id="ibge" szie="8">
     </label><br>
-</fieldset>
+
 </form>
 </body>
 </html>

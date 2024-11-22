@@ -1,16 +1,30 @@
 body{
+    
+    
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     background: url(https://pbs.twimg.com/media/C4n6iF2WYAAmhh4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: 40px;
+    
 
 }
 
-fieldset{
-    width: 200px;
-    border: 10px solid;
-    transform: translate(100%);
-    margin-top: 100px;
+#formulario{
+
+    color: rgb(253, 253, 253);
+    padding: 30px 80px;
+    border-radius: 5px;
+    border: 2px solid  rgba(255, 255, 255, .2);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+    flex-flow: column;
+    margin-top: 22vh;
+    display: flex;
+    width:465px;
+    gap: 7px;
+    background: transparent;
+    backdrop-filter: blur(40px);
 
 }
