@@ -1,77 +1,58 @@
-body{
-    
-    
+body {
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     align-items: center;
     display: flex;
-    background: url(https://lncimg.lance.com.br/cdn-cgi/image/width=1080,quality=75,fit=pad,format=webp/uploads/2024/11/jogo-corinthians-hoje-7-scaled-aspect-ratio-512-320.jpg); 
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7y4kgWMFkZST6rWxlhQ0k4BQ4nYA330InkQvMh6RYpuvy0Tu05qmTgLDp7bz3C3DW1ktouY02NxtOBVK_TE4StE-4hPejb1DxSOwCZem4d6lHQ71f0WYJ9Xb70zssU24g1brVKVRRnoM/s1600/aCorinthians.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    margin: 0px;
+    padding: 0px;
+    height: 95vh;
 
 }
 
-#formulario{
-
-    color: rgb(253, 253, 253);
-    padding: 5px 25px;
-    border-radius: 10px;
-    border: 3px solid  rgb(255, 255, 255);
+#formulario {
+    position: relative;
+    left: -25%;
+    padding: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(26, 22, 22);
     box-shadow: 0px 0px 20px rgb(179, 3, 3);
     flex-flow: column;
-    margin-top: 15vh;
-    display:inline-flex;
-    width:500px;
-    gap: 10px;
+    width: 350px;
     background: transparent;
     backdrop-filter: blur(40px);
-
 }
 
-button {
 
-    background-color: #ffffff; 
-    color: #8b8b8b;
+
+button {
+    background-color: #050505;
+    color: #faf3f3;
     border: none;
-    border-radius: 5px;
-    padding: 10px 10px;
+    border-radius: 10px;
+    padding: 15px;
     font-size: 16px;
     cursor: pointer;
-    transition: all 0.3s ease; 
-
+    transition: all 0.3s ease;
 }
 
 button:hover {
-
-    background-color: #ff0000; 
-    box-shadow: 0px 4px 10px rgba(104, 102, 102, 0.3);
-
-} 
+    background-color: #ff0000;
+    box-shadow: 0px 4px 10px rgba(189, 93, 93, 0.3);
+}
 
 input[type="text"] {
-
-    width: 50%;
+    width: 100%;
     padding: 10px;
-    margin: 5px 5;
-    border: 2px solid #868686;
+    margin: 10px 0;    border: 2px solid #868686;
     border-radius: 5px;
-    font-size: 15px;
-    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.2); 
-
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 input[type="text"]:focus {
-
-    outline: none; 
-    border: 1px solid #ff0000;
-    box-shadow: 0px 0px 10px rgb(255, 253, 253);
-
-} 
-
-* {
-
-    transition: all 0.3s ease; /* Transições suaves para todas as mudanças */
-
-} 
- 
+    outline: none;
+    border: 2px solid #7c0505;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
