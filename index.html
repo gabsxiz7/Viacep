@@ -10,28 +10,26 @@
 <body>
 
     <form id="formulario">
-        <legend style="color: rgb(16, 0, 0); font-family: Stencil Std, fantasy; font-size: larger;"><strong>VIA CEP</strong></legend>
+        <legend style="color: rgb(0, 0, 0); font-family: Stencil Std, fantasy; font-size: larger;"><strong>VIA CEP</strong></legend>
     <label>Cep:
-        <input name="cep" type="text" id="cep" value="" szie="10" maxlength="9"
+        <input name="cep" type="text" placeholder="Digite o cep" id="cep" value="" szie="10" maxlength="9"
         onblur="PesquisaCEP(this.value)">
     </label><br>
     <label>Rua:
-        <input name="rua" type="text" id="rua" size="60">
+        <input name="rua" type="text" placeholder="Digite a rua" id="rua" size="60">
     </label><br>
     <label>Bairro:
-        <input name="bairro" type="text" id="bairro" szie="40" max="9">
+        <input name="bairro" type="text" placeholder="Digite o bairro" id="bairro" szie="40" max="9">
     </label><br>
     <label>Cidade:
-        <input name="cidade" type="text" id="cidade" szie="40">
+        <input name="cidade" type="text" placeholder="Digite a cidade" id="cidade" szie="40">
     </label><br>
     <label>Estado:
-        <input name="estado" type="text" id="uf" szie="2">
+        <input name="estado" type="text" placeholder="Digite o estado" id="uf" szie="2">
     </label><br>
     <label>IBGE:
-        <input name="ibge" type="text" id="ibge" szie="8">
+        <input name="ibge" type="text" placeholder="Digite o código IBGE" id="ibge" szie="8">
     </label><br>
-
-    <button type="submit">Consultar</button>
 
 </form>
 </body>
